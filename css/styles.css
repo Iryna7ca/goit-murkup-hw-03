@@ -8,13 +8,33 @@
   --cloud: #f4f4fd;
   --ocean: #404bbf;
 }
+/* Container */
+.container { 
+max-width: 1158px;
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right:  
+}
+
 body {
   background-color: var(--white);
   font-family: var(--primary-font);
   color: var(--slate);
 }
-/* header */
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
 
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+/* header */
+header {
+  border-bottom: 1px solid var(--cornflower, #E7E9FC);
+}
 /* Logo */
 
 .logo {
@@ -81,6 +101,7 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
 }
 
 .hero-btn {
