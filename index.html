@@ -28,35 +28,35 @@
 
   <body>
     <header>
-      <div class="container">
-        <nav>
+      <div class="header-container container">
+        <nav class="nav-wrapper">
           <!-- Logo -->
           <a class="logo link" href="./index.html"
             >Web<span class="logo-header">Studio</span></a
           >
           <!-- Navigation -->
-          <ul class="list link">
-            <li>
+          <ul class="nav-list list">
+            <li class="nav-item">
               <a class="nav link" href="./index.html">Studio</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li>
+            <li class="nav-item">
               <a class="nav link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
         <!-- Adress -->
         <address class="adress">
-          <ul class="list">
-            <li>
-              <a class="adress-list link" href="mailto:info@devstudio.com"
+          <ul class="adress-list list">
+            <li class="adress-item">
+              <a class="adress-list-item link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
-            <li>
-              <a class="adress-list link" href="tel:+110001111111"
+            <li class="adress-item">
+              <a class="adress-list-item link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -69,7 +69,7 @@
       <!-- Hero section -->
 
       <section class="hero">
-        <div class="container">
+        <div class="hero-container container">
           <h1 class="hero-title" id="studio">
             Effective Solutions for Your Business
           </h1>
@@ -80,9 +80,9 @@
       <!-- About us section -->
 
       <section class="about">
-        <div class="container">
+        <div class="about-container container">
           <h2 class="visually-hidden">About us</h2>
-          <ul class="list">
+          <ul class="about-list list">
             <li class="about-item">
               <h3 class="about-list-title">Strategy</h3>
               <p class="about-text">
@@ -104,7 +104,7 @@
                 growth opportunities and minimize risk.
               </p>
             </li>
-            <li>
+            <li class="about-item">
               <h3 class="about-list-title">Technologies</h3>
               <p class="about-text">
                 Design practice focused on digital experiences. We bring forth a
@@ -118,10 +118,10 @@
       <!-- What we do section-->
 
       <section class="doing">
-        <div class="container">
+        <div class="doing-container container">
           <h2 class="doing-title">What are we doing</h2>
-          <ul class="list">
-            <li>
+          <ul class="doing-list list">
+            <li class="doing-item">
               <img
                 src="./images/section2/img1.jpg"
                 alt="Laptop on the table"
@@ -152,48 +152,56 @@
       <!-- Team -->
 
       <section class="team-section">
-        <div class="container">
+        <div class="team-container container">
           <h2 class="team-section-title">Our Team</h2>
-          <ul class="list">
-            <li class="team">
+          <ul class="team-list list">
+            <li class="team-card">
               <img
                 src="./images/section3/img1.jpg"
                 alt="Foto Mark Guerrero"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Mark Guerrero</h3>
-              <p class="card-text">Product Designer</p>
+              <div class="team-card-content">
+                <h3 class="card-title">Mark Guerrero</h3>
+                <p class="card-text">Product Designer</p>
+              </div>
             </li>
-            <li class="team">
+            <li class="team-card">
               <img
                 src="./images/section3/img2.jpg"
                 alt="Foto Tom Ford"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Tom Ford</h3>
-              <p class="card-text">Frontend Developer</p>
+              <div class="team-card-content">
+                <h3 class="card-title">Tom Ford</h3>
+                <p class="card-text">Frontend Developer</p>
+              </div>
             </li>
-            <li class="team">
+            <li class="team-card">
               <img
                 src="./images/section3/img3.jpg"
                 alt="Foto Camila Garcia"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Camila Garcia</h3>
-              <p class="card-text">Marketing</p>
+              <div class="team-card-content">
+                <h3 class="card-title">Camila Garcia</h3>
+                <p class="card-text">Marketing</p>
+              </div>
             </li>
-            <li class="team">
+            <li class="team-card">
               <img
                 src="./images/section3/img4.jpg"
                 alt="Foto Daniel Wilson"
                 width="264"
                 height="260"
               />
-              <h3 class="card-title">Daniel Wilson</h3>
-              <p class="card-text">UI Designer</p>
+              <div class="team-card-content">
+                <h3 class="card-title">Daniel Wilson</h3>
+                <p class="card-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -201,7 +209,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="footer-container container">
         <a class="logo link" href="./index.html"
           >Web<span class="logo-footer">Studio</span></a
         >
