@@ -333,6 +333,9 @@ ol {
   gap: 24px;
   row-gap: 56px;
 }
+.portfolio-item {
+  flex-basis: calc((100% - 24 * 2) / 3);
+}
 .portfolio-card-content {
   display: flex;
   flex-direction: column;
